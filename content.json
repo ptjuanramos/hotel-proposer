@@ -1,0 +1,83 @@
+```
+[
+    {
+        "hotel_id": "1",
+        "hotel_name": "Hotel Bellevue Palace",
+        "hotel_email": "[insert the hotel Bellevue Palace’s email]",
+        "email_proposal":
+        "Subject: Transformative Business Collaboration - Digital Detox Event
+
+        Dear [Recipient Name],
+
+        I hope this email finds you well. My name is [Your Name], and I am representing Social Circle, a company encouraging targeted digital detox programs.
+
+        We are particularly interested in Hotel Bellevue Palace due to its luxurious offering and primary focus on affluent individuals and couples between ages 30 and 60. Given the stressful digital era we operate in, we believe your customers would appreciate our digital detox program, tailored to provide a tranquil, stress-free environment.
+
+        Event Outline:
+        1. Participants' digital devices will be safely stored away upon arrival.
+        2. They will receive a tailor-made Digital Detox Kit designed by Social Circle to offer a fulfilling experience while disconnecting from the digital world. 
+        3. Subsequent to the event, we recommend continues customer engagement through your digital channels, emphasizing the life-changing experiences from the event.
+
+        We anticipate an increase in positive reviews and customer loyalty, leading to amplified visibility and promotion for the Hotel Bellevue Palace. 
+
+        Looking forward to discussing this further.
+
+        Best,
+        
+        [Your Name]
+        [Your Contact Information]"
+    },
+    {
+        "hotel_id": "2",
+        "hotel_name": "Hotel Waldhaus Sils",
+        "hotel_email": "[insert the Hotel Waldhaus Sils's email]",
+        "email_proposal":
+        "Subject: Business Proposal for a Unique Digital Detox Experience
+
+        Dear [Recipient Name],
+
+        I trust this email meets you well; I am [Your Name] representing Social Circle. We are focused on delivering meaningful and result-driven digital detox events.
+
+        We learn that family and couples, particularly from urban backgrounds, form the significant client base for the Hotel Waldhaus Sils. Our proposal is to host a digital detox event that ensures these guests experience the serenity of nature and tranquillity that your hotel is known for, whilst disconnecting from unnecessary digital distractions.
+
+        Event Highlight:
+        1. Guests will be invited to safely deposit their digital devices for the event duration.
+        2. Social Circle will provide a bespoke Digital Detox Kit focusing on cultural and natural experiences to perfectly connect them with the serene alpine environment your charming hotel offers.
+
+        Anticipated Benefit: Increased customer satisfaction, repeated visits and possibility of attracting young demographic with specialized programs.
+
+        I eagerly await your response to take this further and build excellent synergy between our offerings.
+
+        Kind Regards,
+        
+        [Your Name]
+        [Your Contact Information]"
+    },
+    {
+        "hotel_id": "3",
+        "hotel_name": "Hotel Seehof Davos",
+        "hotel_email": "[insert the Hotel Seehof Davos's email]",
+        "email_proposal":
+        "Subject: High-Potential Collaboration - Digital Detox Initiative
+
+        Dear [Recipient Name],
+
+        I am [Your Name], representing Social Circle. I am writing to propose a potential business collaboration focused on digital detox events for your patronage.
+
+        Given that your parlance includes health-centric adults and seniors who seek serene settings, it is evident to us that a Digital Detox event would complement perfectly with your brand promise.
+
+        Event Structure:
+        1. The commencement of the event will involve parting away from their digital devices.
+        2. A one-of-a-kind Digital Detox Kit designed by Social Circle would be issued focusing on wellness activities, outdoor explorations and relaxation techniques.
+
+        We believe that such a riveting concept would position your brand as innovative leaders in the luxury wellness industry. 
+
+        We are eager for collaboration and look forward to discussing this opportunity. 
+
+        Best Regards,
+        
+        [Your Name]
+        [Your Contact Information]"
+    }
+]
+```
