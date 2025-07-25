@@ -17,7 +17,10 @@ class HotelResearchingTasks:
                     6. Brief description
                     7. Why they match our criteria
                 
-                    Get 15-25 hotels that best match our outreach criteria.
+                	Constraints:
+                     - At least 10 hotels that best match our outreach criteria.
+                     - Minimize the number of tokens used as a response.
+                     - The data should be at least 80% truthful and confirmed.
 				"""),
 			agent=agent,
             expected_output=dedent(f"""

@@ -1,6 +1,9 @@
 from crewai import Task
 from textwrap import dedent
 
+from src.models.proposal import HotelEmailProposalResponse
+
+
 class BusinessManagerTasks:
 	def create_email_proposal(self, agent) -> Task:
 		return Task(
@@ -11,31 +14,28 @@ class BusinessManagerTasks:
 				and based on the hotels list:
 				{{hotels}}
 				
-				You are responsible to create a email business proposal for each hotel for the following event format:
+				You are Nina Maurer, responsible to create a email business proposal for each hotel for the following product description:
 				
-				'A digital detox event where people put their phone away for a hours, in which the company that you are representing,
-				Social Circle, is responsible to offer a kit that help them to achieve less dependency on their phone/social media/dumb scrolling.'
+				'Ready-to-use solution that enables hotels to easily offer a Digital Detox stay to their guests.
+
+				It includes:
 				
-				Address the email to a specific individual (e.g., [Recipient Name], [Recipient Title], [Recipient Company]). 
-				If no specific details are provided, use placeholders like "Dear [Recipient Name]" and customize based on context.
+					• A physical kit (games, journal, candle, etc.)
+					• A secure phone box for reception
+					• A simple, staff-friendly process
+					• No upfront cost, pay-as-you-go model, and currently in test phase — ideal for hotels looking to stand out with a meaningful, screen-free guest experience.'
+				
+				Address the email to a specific individual (e.g., [Recipient Name], [Recipient Title], [Recipient Company]).
+				If no specific contact name is provided, use placeholders like "Dear [Hotel Name] Management" and customize based on context.
 				
 				Clearly state the purpose of the email: to propose a business collaboration, service, or solution.
 				Provide a brief overview of the proposed idea, product, or service, focusing on how it addresses the recipient’s needs or challenges.
+				Use the the marketing research as your advantage.
 				
-				Maintain a professional, confident, and courteous tone.
+				Maintain a confident and friendly tone.
 				Keep the email concise and easy to read with short paragraphs or bullet points where appropriate.
-				
 				"""),
 			agent=agent,
-            expected_output=dedent(f"""
-            JSON FORMAT:
-            [
-            	{{
-            		"hotel_id": "hotel list element id",
-            		"hotel_name": "",
-            		"hotel_email": "",
-            		"email_proposal": ""
-            	}}
-            ]
-			""")
+			output_pydantic=HotelEmailProposalResponse,
+            expected_output=dedent("Structured analysis following the HotelEmailProposalResponse schema")
 		)

@@ -11,7 +11,6 @@ from .tools.google_drive import GoogleDrive
 
 load_dotenv()
 
-
 class HotelWorkflow:
 	def __init__(self):
 		workflow = StateGraph(HotelResearchState)
