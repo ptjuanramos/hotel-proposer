@@ -44,8 +44,8 @@ class HotelWorkflow:
 		workflow.add_edge('hotel_research_crew', 'hotel_research_validator_crew')
 		workflow.add_edge('hotel_research_validator_crew', 'hotel_marketing_crew')
 		#workflow.add_edge('hotel_marketing_crew', 'check_validation')
-		workflow.add_edge('hotel_marketing_crew', 'business_manager')
-		workflow.add_edge('business_manager', 'doc_creator')
+		workflow.add_edge('hotel_marketing_crew', 'business_manager_crew')
+		workflow.add_edge('business_manager_crew', 'doc_creator')
 
 		# workflow.add_edge('categorize_complaints', 'summarize_complaints')
 		# workflow.add_edge('summarize_complaints', 'save_summaries')

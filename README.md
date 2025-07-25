@@ -37,9 +37,9 @@ To handle complexity, agents are grouped into logical **crews**:
 
 ```mermaid
 flowchart TD
-    A["hotel_list_researcher"] --> B{"hotel_list_validator"}
+    A["hotel_research_crew"] --> B{"hotel_research_validator_crew"}
     B -- Low Quality --> A
-    B -- Good Quality --> D["marketing_researcher"]
+    B -- Good Quality --> D["hotel_marketing_crew"]
     D --> F["business_manager"]
     F --> H["manual_validator"]
     H -- No --> F
